@@ -30,9 +30,9 @@ setup(
     extras_require={
         "extra": [
             "gymnasium",            # required for GymWrapper
-            "hidapi",               # macOS only; you might also add a marker like: "hidapi; sys_platform=='darwin'"
+            # "hidapi",               # macOS only; you might also add a marker like: "hidapi; sys_platform=='darwin'"
             "h5py",                 # required for demonstration utils
-            # "mink",              # already in install_requires (for mujoco ik), so you can remove it here if desired
+            "mink",              # already in install_requires (for mujoco ik), so you can remove it here if desired
             "robosuite-models==1.0.0",# for extra robosuite_models
             "usd-core",             # for USD export and rendering
         ]
